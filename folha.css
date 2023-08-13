@@ -1,0 +1,43 @@
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Montserrat:ital,wght@1,100&display=swap');
+
+.CorFundo {
+    background-color: rgb(2, 0, 36);
+    background-color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 54, 121, 1) 46%, rgba(0, 212, 255, 1) 100%);
+    transition: all 2.40s ease-in-out;
+}
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 40vh;
+    height: 60vh;
+    background-color: rgb(39, 38, 38);
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+    border-radius: 5px;
+    box-shadow:5px 5px 8px rgb(39, 39, 38);
+    
+}
+
+@keyframes piscar {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+}
+
+#text{
+    color: white;
+    text-align:center;
+}
